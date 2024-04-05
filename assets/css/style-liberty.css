@@ -18962,7 +18962,7 @@ a.search-search:hover {
 
 }
 
-@media (max-width: 1024px) {}
+		@media (max-width: 1024px) {}
 
 @media (max-width: 992px) {
     .w3l-main-slider .banner-info h3 {
@@ -18985,7 +18985,7 @@ a.search-search:hover {
 
 @media (max-width: 736px) {
     .w3l-main-slider .banner-info {
-        margin-left: 30px;
+        margin-left: 15px;
     }
     .w3l-main-slider .banner-info h3 {
         font-size: 60px;
