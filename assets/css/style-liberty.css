@@ -2174,12 +2174,16 @@ progress {
     }
 }
 
+
+
 @media (max-width:767.98px) {
     .table-responsive-md {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
     }
 }
+
+
 
 @media (max-width:991.98px) {
     .table-responsive-lg {
@@ -19054,7 +19058,7 @@ a.search-search:hover {
 
 @media (max-width: 480px) {
     .w3l-main-slider .banner-view {
-        min-height: 100vh;;
+        min-height: 100vh;
     }
 
     .w3l-main-slider .banner-info h3 {
@@ -19070,7 +19074,7 @@ a.search-search:hover {
     }
 
     .w3l-main-slider .banner-view {
-        min-height: 100vh;;
+        min-height: 100vh;
     }
 }
 
@@ -22985,6 +22989,7 @@ a.blog-desc1:hover {
 /*--contact1--*/
 .w3l-contact-1 {
     background-color: var(--bg-color);
+    height: 70vh;
 }
 
 .margin-up {
