@@ -17866,23 +17866,21 @@ fieldset:disabled .btn {
 }
 
 :root {
-    --primary-color: #004e98;
+    --primary-color: #0479e9;
     --secondary-color: #ff6700;
-    --font-color: #444;
-    --bg-color: #fff;
-    --heading-color: #252422;
-    --border-radius: 6px;
-    --border-radius-full: 35px;
-    --border-color: transparent;
-    --border-color-light: #eee;
-    --nav-color: #292922;
-    --dropdown-color: #fff;
-    --iframe-filter: grayscale(0%);
-    --bg-light: #f9f9f9;
-    --layer: rgb(0 0 0 / 55%);
-    --bg-grey: #f7f7f7;
+    --font-color: #afafaf;
+    --bg-color: #232220;
+    --heading-color: #eee;
+    --border-color: rgba(255, 255, 255, 0.2);
+    --border-color-light: rgba(255, 255, 255, 0.1);
+    --nav-color: #fff;
+    --dropdown-color: #121725;
+    --iframe-filter: grayscale(100%);
+    --layer: rgb(0 0 0 / 75%);
+    --bg-light: #282828;
+    --bg-grey: #272727;
+    --card-bg: #888c96;
     --footer-bg: #0f1113;
-    --card-bg: #fff;
 }
 
 [data-theme="dark"] {
