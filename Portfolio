@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>2BIT VC | Portfolio</title>
+    <!--/google-fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--//google-fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-liberty.css">
+
+</head>
+
+<body>
+    <!--/Header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                <h1><a class="navbar-brand pe-xl-5 pe-lg-4 " href="index.html" >
+                        ｜<span class="sublog">2BIT</span><span style="color: white;">  VC</span>
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll" >
+                    <ul class="navbar-nav me-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" style="font-size: 20px;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" style="font-size: 20px;">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html" style="font-size: 20px;">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" style="font-size: 20px;">Contact</a>
+                        </li>
+
+
+
+                    </ul>
+                    
+                    <!-- /search popup -->
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <div id="clock" class="design-clock delay0" style="color: white;  font-size: 16px; font-family: Mono !important; font-weight: bolder;">
+                        23:24:35
+                    </div>
+                    <script> 
+                                                function currentTime() {
+                                                  var date = new Date(); /* creating object of Date class */
+                                                  var hour = date.getHours();
+                                                  var min = date.getMinutes();
+                                                  var sec = date.getSeconds();
+                                                  var day = date.toISOString().split('T')[0];
+                                                  hour = updateTime(hour);
+                                                  min = updateTime(min);
+                                                  sec = updateTime(sec);
+                                                  document.getElementById("clock").innerHTML = hour + ":" + min + ":" + sec; /* adding time to the div */
+                                                    var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
+                                                }
+                                                
+                                                function updateTime(k) {
+                                                  if (k < 10) {
+                                                    return "0" + k;
+                                                  }
+                                                  else {
+                                                    return k;
+                                                  }
+                                                }
+                                                
+                                                currentTime(); /* calling currentTime() function to initiate the process */
+                                                
+                        </script>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//Header-->
+    <!-- main-slider -->
+    <section class="w3l-main-slider banner-slider" id="home">     
+            <div class="item">
+                <div class="slider-info banner-view banner-top1">
+                    <div class="container">
+                        <div class="banner-info">
+                            <h3><span>2BIT</span> Ventures Capital</h3>
+                            <div class="banner-info-top">
+                                <h5 class = "mb-4"  style="color: white;">0 and 1 are basic, 0 and 1 building infinity </h5>
+                                <p>2BIT VC is a Web3 venture capital firm.lkasdj sad  sad  opdi dalsdj oq pwd dso ocxzildkas jkfjalsjf dopsifoaaslk jdklajdk zxocopiasodaskld kls adjk dsa dopsifoaaslk</p>
+                                <p>© 2024 2BIT VC. ALL RIGHTS RESERVED. </p>
+                                <a href="about.html" class="btn btn-style btn-outline-light mt-3">Portfolio<span class="fas fa-angle-double-right ms-2"></span> </a>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/theme-change.js"></script>
+    <!-- Lightbox --
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/simpleLightbox.js"></script>
+    <script>
+        $('.w3layouts_gallery_grid a').simpleLightbox();
+
+    </script>
+    <!-- //Lightbox -->
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <!-- faq -->
+    <script>
+        const items = document.querySelectorAll(".accordion button");
+
+        function toggleAccordion() {
+            const itemToggle = this.getAttribute('aria-expanded');
+
+            for (i = 0; i < items.length; i++) {
+                items[i].setAttribute('aria-expanded', 'false');
+            }
+
+            if (itemToggle == 'false') {
+                this.setAttribute('aria-expanded', 'true');
+            }
+        }
+
+        items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+    </script>
+    <!-- //faq -->
+    <script src="assets/js/easyResponsiveTabs.js"></script>
+    <!--Plug-in Initialisation-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //Horizontal Tab
+            $('#parentHorizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion
+                width: 'auto', //auto or any width like 600px
+                fit: true, // 100% fit in a container
+                tabidentify: 'hor_1', // The tab groups identifier
+                activate: function(event) { // Callback function if tab is switched
+                    var $tab = $(this);
+                    var $info = $('#nested-tabInfo');
+                    var $name = $('span', $info);
+                    $name.text($tab.text());
+                    $info.show();
+                }
+            });
+        });
+
+    </script>
+    <script src="assets/js/circles.js"></script>
+    <!-- owlcarousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- script for banner slider-->
+    <script>
+        $(document).ready(function() {
+            $('.owl-one').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: false,
+                responsiveClass: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    480: {
+                        items: 1
+                    },
+                    667: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+        })
+
+    </script>
+    <!-- //script -->
+    <!-- script for tesimonials carousel slider -->
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo1").owlCarousel({
+                loop: true,
+                margin: 200,
+                nav: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    736: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 2,
+                        nav: false,
+                        margin: 30,
+                        loop: false
+                    }
+                }
+            })
+        })
+
+    </script>
+    <!-- //script for tesimonials carousel slider -->
+    <!-- video popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+
+    </script>
+    <!-- //video popup -->
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- //bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
