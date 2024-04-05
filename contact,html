@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>2BIT VC | Contact</title>
+    <!--/google-fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--//google-fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-liberty.css">
+</head>
+
+<body>
+    <!--/Header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                <h1><a class="navbar-brand pe-xl-5 pe-lg-4 " href="index.html" >
+                    ｜<span class="sublog">2BIT</span><span style="color: white;">  VC</span>
+                </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll" >
+                    <ul class="navbar-nav me-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" style="font-size: 20px;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html" style="font-size: 20px;">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html" style="font-size: 20px;">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" style="font-size: 20px;">Contact</a>
+                        </li>
+
+
+
+                    </ul>
+                    
+                    <!-- /search popup -->
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <div id="clock" class="design-clock delay0" style="color: white;  font-size: 16px; font-family: Mono !important; font-weight: bolder;">
+                        23:24:35
+                    </div>
+                    <script> 
+                                                function currentTime() {
+                                                  var date = new Date(); /* creating object of Date class */
+                                                  var hour = date.getHours();
+                                                  var min = date.getMinutes();
+                                                  var sec = date.getSeconds();
+                                                  var day = date.toISOString().split('T')[0];
+                                                  hour = updateTime(hour);
+                                                  min = updateTime(min);
+                                                  sec = updateTime(sec);
+                                                  document.getElementById("clock").innerHTML = hour + ":" + min + ":" + sec; /* adding time to the div */
+                                                    var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
+                                                }
+                                                
+                                                function updateTime(k) {
+                                                  if (k < 10) {
+                                                    return "0" + k;
+                                                  }
+                                                  else {
+                                                    return k;
+                                                  }
+                                                }
+                                                
+                                                currentTime(); /* calling currentTime() function to initiate the process */
+                                                
+                        </script>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//Header-->
+    <!-- breadcrumb -->
+    <section class="w3l-about-breadcrumb">
+        <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+            <div class="container py-lg-5 py-md-4">
+                <div class="w3breadcrumb-gids pt-5 ">
+                    <div class="w3breadcrumb-right">
+                        <ul class="breadcrumbs-custom-path">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><span class="fas fa-angle-double-right mx-2"></span>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//breadcrumb-->
+	<div style="margin: 8px auto; display: block; text-align:center;">
+
+<!---728x90--->
+
+ 
+</div>
+    <!-- contact1 -->
+    <section class="w3l-contact-1 py-5" id="contact">
+        <div class="contacts-9 py-lg-5 py-md-4">
+            <div class="container">
+                <div class="contactct-fm map-content-9">
+                    <div class="header-title text-center">
+                        <h6 class="title-subhny"><span>contact Us</span></h6>
+                        <h3 class="title-w3l mb-2">Let’s Talk About
+                            <span class="span-bold"> Your Project</span>
+                        </h3>
+                        <p class="mb-sm-5 mb-4">Start working with Us that can provide everything you need to generate awareness,
+                            drive traffic,
+                            connect. <br> We guarantee that you’ll be able to have any issue resolved within 24 hours.</p>
+                    </div>
+                </div>
+                <div class="row contact-view my-5 py-lg-5">
+                    <div class="col-lg-6 cont-details">
+                        <div class="contactct-fm-text text-left">
+                            <h6 class="title-subhny"><span>Find Us</span></h6>
+                            <h3 class="title-w3l mb-5">2BIT VC
+                                <span class="span-bold"> Office</span>
+                            </h3>
+                            <div class="cont-top">
+                                <div class="cont-left text-center">
+                                    <span class="fas fa-phone-alt"></span>
+                                </div>
+                                <div class="cont-right">
+                                    <h5>Phone number</h5>
+                                    <p><a href="tel:+(21) 255 088 4943">+(21) 255 088 4943</a></p>
+                                </div>
+                            </div>
+                            <div class="cont-top margin-up">
+                                <div class="cont-left text-center">
+                                    <span class="fas fa-envelope-open-text"></span>
+                                </div>
+                                <div class="cont-right">
+                                    <h5>Send Email</h5>
+                                    <p>support@mail.com</p>
+                                </div>
+                            </div>
+                            <div class="cont-top margin-up">
+                                <div class="cont-left text-center">
+                                    <span class="fas fa-map-marker-alt"></span>
+                                </div>
+                                <div class="cont-right">
+                                    <h5>Office Address</h5>
+                                    <p class="pr-lg-5">Address here, 434 Food Honey street,<br> London, UK - 62617.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /contact1 -->
+	<div style="margin: 8px auto; display: block; text-align:center;">
+
+<!---728x90--->
+ 
+</div>
+    <!--/w3l-footer-29-main-->
+        <footer class="w3l-footer-29-main">
+                <div class="bottom-copies text-center">
+                    <a  href=""style="font-size: 16px; color: rgba(255, 255, 255, 0.737); font-weight: bold;">X</a>
+                    <span style="font-size: 16px; color: rgba(255, 255, 255, 0.737); font-weight: bold;">·</span>
+                    <a href="mailto:2bitcapital@gmail.com" style="font-size: 16px; color: rgba(255, 255, 255, 0.737); font-weight: bold;">Email</a>
+                    <p class="copy-footer-29">© 2024 2BIT VC. ALL RIGHTS RESERVED. </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-angle-up"></span>
+        </button>
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("movetop").style.display = "block";
+                } else {
+                    document.getElementById("movetop").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
+        </script>
+        <!-- //move top -->
+
+    </footer>
+    <!--//footer-9 -->
+    <!-- Js scripts -->
+    <!-- Template JavaScript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/theme-change.js"></script>
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- //bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
