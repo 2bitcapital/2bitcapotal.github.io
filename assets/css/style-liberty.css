@@ -2172,6 +2172,10 @@ progress {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
     }
+
+    .map-content-9{
+        margin-top: 20px !important;
+    }
 }
 
 
@@ -22989,7 +22993,7 @@ a.blog-desc1:hover {
 /*--contact1--*/
 .w3l-contact-1 {
     background-color: var(--bg-color);
-    height: 70vh;
+    height: 62vh;
 }
 
 .margin-up {
@@ -23104,6 +23108,10 @@ a.blog-desc1:hover {
 @media (max-width:600px) {
     .twice-two {
         grid-template-columns: 1fr;
+    }
+
+    .w3l-contact-1{
+        height: 70vh;
     }
 
     button.btn-contact {
