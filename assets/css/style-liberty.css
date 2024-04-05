@@ -19054,7 +19054,7 @@ a.search-search:hover {
 
 @media (max-width: 480px) {
     .w3l-main-slider .banner-view {
-        min-height: 450px;
+        min-height: 100vh;;
     }
 
     .w3l-main-slider .banner-info h3 {
@@ -19070,7 +19070,7 @@ a.search-search:hover {
     }
 
     .w3l-main-slider .banner-view {
-        min-height: 400px;
+        min-height: 100vh;;
     }
 }
 
