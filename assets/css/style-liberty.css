@@ -18136,7 +18136,7 @@ p.white {
 .title-subhny span,
 .title-subhny.two,
 .title-subhny.three span {
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 600;
     text-transform: capitalize;
     line-height: 28px;
@@ -18857,7 +18857,7 @@ a.search-search:hover {
 }
 
 .w3l-main-slider .banner-view {
-    background-image: url('../images/banner1.jpg');
+    background-image: url('../images/banners.png');
     background-size: cover; /* 铺满整个容器，可能会裁切部分图片内容 */
     background-position: center; /* 将图片居中显示 */
     z-index: 0;
@@ -18962,7 +18962,7 @@ a.search-search:hover {
 
 }
 
-		@media (max-width: 1024px) {}
+@media (max-width: 1024px) {}
 
 @media (max-width: 992px) {
     .w3l-main-slider .banner-info h3 {
@@ -19005,7 +19005,7 @@ a.search-search:hover {
     }
 
     .w3l-main-slider .banner-info h5 {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 26px;
     }
 
@@ -20190,7 +20190,7 @@ section.w3l-project-main {
 }
 
 .w3l-project {
-    background: url(../images/banner1.jpg) no-repeat center;
+    background: url(../images/banners.png) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
@@ -23112,6 +23112,10 @@ a.blog-desc1:hover {
 
     .w3l-contact-1{
         height: 70vh;
+    }
+
+    .email .h5{
+        font-size: 15px;
     }
 
     button.btn-contact {
