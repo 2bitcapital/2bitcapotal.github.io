@@ -18857,7 +18857,7 @@ a.search-search:hover {
 }
 
 .w3l-main-slider .banner-view {
-    background-image: url('../images/banners.png');
+    background-image: url('./assets/images/banners.png');
     background-size: cover; /* 铺满整个容器，可能会裁切部分图片内容 */
     background-position: center; /* 将图片居中显示 */
     z-index: 0;
@@ -20190,7 +20190,7 @@ section.w3l-project-main {
 }
 
 .w3l-project {
-    background: url(../images/banners.png) no-repeat center;
+    background: url(./assets/images/banners.png) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
