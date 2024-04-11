@@ -29,16 +29,16 @@
                 <div class="collapse navbar-collapse" id="navbarScroll" >
                     <ul class="navbar-nav me-lg-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html" style="font-size: 20px;">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index" style="font-size: 20px;">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="team.html" style="font-size: 20px;">Team</a>
+                            <a class="nav-link" href="team" style="font-size: 20px;">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html" style="font-size: 20px;">Portfolio</a>
+                            <a class="nav-link" href="portfolio" style="font-size: 20px;">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html" style="font-size: 20px;">Contact</a>
+                            <a class="nav-link" href="contact" style="font-size: 20px;">Contact</a>
                         </li>
 
 
