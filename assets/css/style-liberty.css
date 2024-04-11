@@ -18857,7 +18857,7 @@ a.search-search:hover {
 }
 
 .w3l-main-slider .banner-view {
-    background-image: url('https://images.unsplash.com/photo-1666649507264-0e340834e39a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('../images/banners.png');
     background-size: cover; /* 铺满整个容器，可能会裁切部分图片内容 */
     background-position: center; /* 将图片居中显示 */
     z-index: 0;
@@ -20190,7 +20190,7 @@ section.w3l-project-main {
 }
 
 .w3l-project {
-    background: url('https://images.unsplash.com/photo-1666649507264-0e340834e39a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center;
+    background: url('../images/banners.png') no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
