@@ -20200,7 +20200,7 @@ section.w3l-project-main {
     align-items: center;
     background-size: cover;
     border-radius: var(--border-radius);
-    filter: brightness(250%); /* 调整图片的亮度，数值大于 100% 使其更亮 */
+    filter: brightness(250%); 
 }
 
 .w3l-project::before {
@@ -21661,8 +21661,8 @@ p.inner-page-para {
     -o-box-shadow: 0 3px 53px rgba(40, 40, 40, .05);
     box-shadow: 0 3px 53px rgba(40, 40, 40, .05);
     border-radius: var(--border-radius);
-    width: 374px; /* 设置宽度为 200px */
-    height: 255px; /* 设置高度为 200px */
+    width: 374px; 
+    height: 255px; 
 }
 
 .w3l-grids-3 .grid-block:hover {
