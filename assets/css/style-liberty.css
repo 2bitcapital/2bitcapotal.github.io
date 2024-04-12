@@ -18858,13 +18858,14 @@ a.search-search:hover {
 
 .w3l-main-slider .banner-view {
     background-image: url('../images/banners.png');
-    background-size: cover; /* 铺满整个容器，可能会裁切部分图片内容 */
-    background-position: center; /* 将图片居中显示 */
+    background-size: cover; 
+    background-position: center; 
     z-index: 0;
     position: relative;
     display: grid;
     align-items: center;
-    min-height: 100vh; /* 设置容器高度为视口高度 */
+    min-height: 100vh; 
+    filter: brightness(250%);
 }
 
 
@@ -20199,6 +20200,7 @@ section.w3l-project-main {
     align-items: center;
     background-size: cover;
     border-radius: var(--border-radius);
+    filter: brightness(250%); /* 调整图片的亮度，数值大于 100% 使其更亮 */
 }
 
 .w3l-project::before {
